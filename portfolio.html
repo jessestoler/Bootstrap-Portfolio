@@ -7,94 +7,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
-#portfolioLeft {float: left;}
 
-#portfolioRight {float: right;}
+    .container-fluid {background-color: lightgray;
+                      padding: 50px 215px 50px 145px;}
 
-#main img   {height: 140px;
-            padding-bottom: 5px;
-            padding-right: 10px;
-            width: 180px;}
+    footer            {height: 105px;
+                      position: absolute;
+                      width: 100%;} 
 
-.mainImages p {background-color: teal;
-                color: white;
-                text-align: center;
-                z-index: 2;
-                position: relative;
-                bottom: 85px;
-                width: 100%;
-                height: 45px;
-                line-height: 45px;} 
+    #gray             {background-color: #666666;
+                      color: white;
+                      height: 95px;
+                      line-height: 95px;
+                      position: absolute;
+                      text-align: center;
+                      top: 10px;
+                      width: 100%;}  
 
-    #main       {background-color: white;
-            color: gray;
-            float: left;
-            padding-left: 20px;
-            padding-right: 25px;
-            width: 650px;}
+    header            {height: 100px;
+                      padding-right: 115px;}
 
-      #sidebar {background-color: white;
-            color: teal;
-            float: right;
-            height: 190px;
-            left: 85px;
-            padding-left: 5px;
-            padding-right: 5px;
-            position: relative;
-            text-align: center;
-            width: 270px;}
+    header li         {border-right: 1px solid gray;}
 
-      .container-fluid {background-color: lightgray;
-        padding-bottom: 50px;
-        padding-left: 145px;
-        padding-right: 215px;
-      padding-top: 50px;}
+    header ul         {position: absolute;
+                      right: 0;}
 
-      
+    #main             {background-color: white;
+                      color: gray;
+                      float: left;
+                      padding-left: 20px;
+                      padding-right: 25px;
+                      position: relative;
+                      width: 650px;}
 
-      header {height: 100px;}
+    #main h2          {border-bottom: 3px solid lightgray;
+                      color: teal;
+                      margin-top: 45px;
+                      padding-bottom: 30px;}
 
-        header li {border-right: 1px solid gray;}
+    .mainImages p     {background-color: teal;
+                      bottom: 85px;
+                      color: white;
+                      height: 45px;
+                      line-height: 45px;
+                      position: relative;
+                      text-align: center;
+                      width: 170px;
+                      z-index: 2;}
+                
+    #main img         {height: 140px;
+                      padding-bottom: 5px;
+                      padding-right: 10px;
+                      width: 180px;}
 
-      header ul {position: absolute;
-                  right: 0;}
+    #nameTag          {background-color: teal;
+                      color: white;
+                      height: 100px;
+                      line-height: 100px;
+                      margin-left: 145px;
+                      text-align: center;
+                      width: 300px;}
 
-    #nameTag {background-color: teal;
-        color: white;
-      height: 100px;
-      line-height: 100px;
-      margin-left: 145px;
-      text-align: center;
-    width: 300px;}
+    #nameTag h2       {position: relative;
+                      top: 25px;}
+                
+    #portfolioLeft    {float: left;}
 
-    #main h2    {border-bottom: 3px solid lightgray;
-            color: teal;
-            margin-top: 45px;
-            padding-bottom: 30px;}
+    #portfolioRight   {float: right;}
 
-    #nameTag h2 {position: relative;
-                  top: 25px;}
+    #sidebar          {background-color: white;
+                      color: teal;
+                      float: right;
+                      height: 190px;
+                      left: 85px;
+                      padding-left: 5px;
+                      padding-right: 5px;
+                      padding-top: 10px;
+                      position: absolute;
+                      text-align: center;
+                      width: 270px;}
 
-                  #teal       {background-color: teal;
-            height: 10px;}
+    #sidebar h2       {border-bottom: 2px solid lightgray;
+                      padding-bottom: 20px;}
 
-            #gray   {background-color: #666666;
-        color: white;
-        height: 95px;
-        line-height: 95px;
-        position: absolute;
-        text-align: center;
-        top: 10px;
-        width: 100%;}  
-
-        footer  {height: 105px;
-        position: absolute;
-        width: 100%;}   
-
-        #sidebar h2     {border-bottom: 2px solid lightgray;
-                padding-bottom: 20px;}  
-    
-    </style>
+    #teal             {background-color: teal;
+                      height: 10px;}
+</style>
     <title>Document</title>
 </head>
 <body>
@@ -112,10 +110,10 @@
                     <li class="nav-item">
                       <a class="nav-link" href="index.html">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                       <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                       <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                   </ul>
