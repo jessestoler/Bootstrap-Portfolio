@@ -2,7 +2,6 @@
  
     .col-sm-8           {background-color: white;
                         color: gray;
-                        
                         float: left;
                         padding-left: 20px;
                         padding-right: 25px;
@@ -11,7 +10,9 @@
     .col-sm-8 h2        {border-bottom: 3px solid lightgray;
                         color: teal;
                         margin-top: 45px;
-                        padding-bottom: 30px;}                    
+                        padding-bottom: 30px;}
+                        
+    .col-sm-8 img       {width: 75%;}
 
     .col-sm-4           {background-color: white;
                         color: teal;
@@ -25,7 +26,9 @@
                         width: 270px;}
     
     .col-sm-4 h2        {border-bottom: 2px solid lightgray;
-                        padding-bottom: 20px;}                    
+                        padding-bottom: 20px;} 
+                        
+    .col-sm-4 img       {width: 25%;}
     
     .container-fluid    {background-color: lightgray;
                         padding: 50px 215px 50px 145px;}

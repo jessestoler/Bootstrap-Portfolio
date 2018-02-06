@@ -10,6 +10,21 @@
 
     .col-sm-8 h2        {color: teal;}
 
+    .col-sm-4           {background-color: white;
+                        color: teal;
+                        float: right;
+                        height: 190px;
+                        left: 150px;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        text-align: center;
+                        width: 270px;}
+
+    .col-sm-4 h2        {border-bottom: 2px solid lightgray;
+                        padding-bottom: 20px;} 
+
+    .col-sm-4 img       {width: 25%;}
+
     .container-fluid    {background-color: lightgray;
                         height: 700px;
                         padding: 50px 215px 50px 145px;}
@@ -54,20 +69,6 @@
 
     #nameTag h2         {position: relative;
                         top: 25px;}
-
-    .col-sm-4           {background-color: white;
-                        color: teal;
-                        float: right;
-                        height: 190px;
-                        left: 150px;
-                        padding-left: 5px;
-                        padding-right: 5px;
-                        
-                        text-align: center;
-                        width: 270px;}
-
-    #sidebar h2         {border-bottom: 2px solid lightgray;
-                        padding-bottom: 20px;} 
 
     #teal               {background-color: teal;
                         height: 10px;}
