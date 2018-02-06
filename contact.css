@@ -1,6 +1,6 @@
     body                {margin: 0 auto;}  
       
-    #contactForm        {background-color: white;
+    .col-sm-8           {background-color: white;
                         color: gray;
                         float: left;
                         padding-left: 20px;
@@ -8,7 +8,7 @@
                         padding-top: 45px;
                         width: 650px;}
 
-    #contactForm h2     {color: teal;}
+    .col-sm-8 h2        {color: teal;}
 
     .container-fluid    {background-color: lightgray;
                         height: 700px;
@@ -55,7 +55,7 @@
     #nameTag h2         {position: relative;
                         top: 25px;}
 
-    #sidebar            {background-color: white;
+    .col-sm-4           {background-color: white;
                         color: teal;
                         float: right;
                         height: 190px;
