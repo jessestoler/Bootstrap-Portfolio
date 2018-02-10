@@ -1,4 +1,4 @@
-body                    {margin: 0 auto;} 
+odbody                    {margin: 0 auto;} 
 
 .col-md-8               {background-color: white;
                         color: gray;
@@ -92,7 +92,7 @@ header ul               {position: absolute;
                             }
 
                             .col-md-8 img {
-                                width: 130%;
+                                width: 105%;
                             }
         
                             .col-md-4 {
@@ -110,7 +110,8 @@ header ul               {position: absolute;
                             }
 
                             .mainImages p {
-                                width: 117%;
+                                font-size: 40%;
+                                width: 94%;
                             }
                         }
      
