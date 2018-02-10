@@ -16,7 +16,7 @@ body                    {margin: 0 auto;}
 .col-md-8 img           {height: 140px;
                         padding-bottom: 5px;
                         padding-right: 10px;
-                        width: 180px;}
+                        width: 70%;}
 
 .col-md-4               {background-color: white;
                         color: teal;
@@ -35,7 +35,8 @@ body                    {margin: 0 auto;}
 .col-md-4 img           {width: 25%;}
 
 .container-fluid        {background-color: lightgray;
-                        padding: 50px 215px 50px 145px;}
+                        padding: 50px 215px 50px 145px;
+                        width: 100%;}
 
 footer                  {height: 105px;
                         position: absolute;
@@ -51,6 +52,7 @@ footer                  {height: 105px;
                         width: 100%;}  
 
 header                  {height: 100px;
+                        
                         padding-right: 115px;}
 
 header li               {border-right: 1px solid gray;}
@@ -61,18 +63,19 @@ header ul               {position: absolute;
 .mainImages p           {background-color: teal;
                         bottom: 85px;
                         color: white;
+                        font-size: 70%;
                         height: 45px;
                         line-height: 45px;
                         position: relative;
                         text-align: center;
-                        width: 170px;
+                        width: 65%;
                         z-index: 2;}
 
 #nameTag                {background-color: teal;
                         color: white;
                         height: 100px;
                         line-height: 100px;
-                        margin-left: 145px;
+                        margin-left: 115px;
                         text-align: center;
                         width: 300px;}
 
@@ -81,3 +84,33 @@ header ul               {position: absolute;
 
 #teal                   {background-color: teal;
                         height: 10px;}
+
+                      
+    @media screen and (max-width: 768px) {
+                            .col-md-8 {
+                                float: none;
+                            }
+
+                            .col-md-8 img {
+                                width: 130%;
+                            }
+        
+                            .col-md-4 {
+                                background-color: purple;
+                                float: none;
+                                margin-top: 15px;
+                                left: 0px;
+                            }      
+
+
+                            footer {
+                                height: 100px;
+                               
+                                width: 108%;
+                            }
+
+                            .mainImages p {
+                                width: 117%;
+                            }
+                        }
+     
