@@ -1,6 +1,6 @@
 body                    {margin: 0 auto;} 
 
-.col-sm-8               {background-color: white;
+.col-md-8               {background-color: white;
                         color: gray;
                         float: left;
                         padding-left: 20px;
@@ -8,17 +8,17 @@ body                    {margin: 0 auto;}
                         position: relative;
                         width: 100%;}
 
-.col-sm-8 h2            {border-bottom: 3px solid lightgray;
+.col-md-8 h2            {border-bottom: 3px solid lightgray;
                         color: teal;
                         margin-top: 45px;
                         padding-bottom: 30px;}
 
-.col-sm-8 img           {height: 140px;
+.col-md-8 img           {height: 140px;
                         padding-bottom: 5px;
                         padding-right: 10px;
                         width: 180px;}
 
-.col-sm-4               {background-color: white;
+.col-md-4               {background-color: white;
                         color: teal;
                         float: right;
                         height: 190px;
@@ -29,10 +29,10 @@ body                    {margin: 0 auto;}
                         text-align: center;
                         width: 270px;}
                         
-.col-sm-4 h2            {border-bottom: 2px solid lightgray;
+.col-md-4 h2            {border-bottom: 2px solid lightgray;
                         padding-bottom: 20px;}
                         
-.col-sm-4 img           {width: 25%;}
+.col-md-4 img           {width: 25%;}
 
 .container-fluid        {background-color: lightgray;
                         padding: 50px 215px 50px 145px;}
@@ -78,10 +78,6 @@ header ul               {position: absolute;
 
 #nameTag h2             {position: relative;
                         top: 25px;}
-
-#portfolioLeft          {float: left;}
-
-#portfolioRight         {float: right;}
 
 #teal                   {background-color: teal;
                         height: 10px;}
