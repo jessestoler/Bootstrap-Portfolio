@@ -1,6 +1,6 @@
     body                {margin: 0 auto;}  
       
-    .col-sm-8           {background-color: white;
+    .col-md-8           {background-color: white;
                         color: gray;
                         float: left;
                         padding-left: 20px;
@@ -8,9 +8,9 @@
                         padding-top: 45px;
                         width: 650px;}
 
-    .col-sm-8 h2        {color: teal;}
+    .col-md-8 h2        {color: teal;}
 
-    .col-sm-4           {background-color: white;
+    .col-md-4           {background-color: white;
                         color: teal;
                         float: right;
                         height: 190px;
@@ -20,10 +20,10 @@
                         text-align: center;
                         width: 270px;}
 
-    .col-sm-4 h2        {border-bottom: 2px solid lightgray;
+    .col-md-4 h2        {border-bottom: 2px solid lightgray;
                         padding-bottom: 20px;} 
 
-    .col-sm-4 img       {width: 25%;}
+    .col-md-4 img       {width: 25%;}
 
     .container-fluid    {background-color: lightgray;
                         height: 700px;
@@ -63,7 +63,7 @@
                         color: white;
                         height: 100px;
                         line-height: 100px;
-                        margin-left: 145px;
+                        margin-left: 115px;
                         text-align: center;
                         width: 300px;}
 
@@ -72,5 +72,31 @@
 
     #teal               {background-color: teal;
                         height: 10px;}
+
+                        @media screen and (max-width: 768px) {
+                            .col-md-8 {
+                                float: none;
+                            }
+
+                            .col-md-8 img {
+                                width: 130%;
+                            }
+        
+                            .col-md-4 {
+                                background-color: purple;
+                                float: none;
+                                margin-top: 15px;
+                                left: 0px;
+                            }      
+
+
+                            footer {
+                                height: 100px;
+                               
+                                width: 108%;
+                            }
+
+                            
+                        }
 
    
