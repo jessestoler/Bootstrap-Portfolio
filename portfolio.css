@@ -90,6 +90,7 @@ header ul               {position: absolute;
                             .col-md-8 {
                                 float: none;
                                 
+                                
                             }
 
                             .col-md-8 img {
@@ -98,7 +99,7 @@ header ul               {position: absolute;
                             }
         
                             .col-md-4 {
-                                background-color: purple;
+                                
                                 float: none;
                                 margin-top: 15px;
                                 left: 0px;
@@ -114,6 +115,11 @@ header ul               {position: absolute;
                             .mainImages p {
                                 
                                 width: 94%;
+                            }
+
+                            #nameTag {
+                                position: absolute;
+                                top: 0px;
                             }
                         }
      
